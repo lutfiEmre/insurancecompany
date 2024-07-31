@@ -1,0 +1,9 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.asd:hover{
+    box-shadow: 0px 0px 4px 0px #4A1578;
+}

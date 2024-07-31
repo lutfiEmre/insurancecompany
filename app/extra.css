@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inter:wght@100..900&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Michroma&family=Murecho:wght@100..900&family=Orbitron&family=Poppins&family=Rubik:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.mplusbold {
+    font-family: "M PLUS Rounded 1c", sans-serif !important;
+    font-weight: 700;
+    font-style: normal;
+}
+.dmsansregular {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.dmsansbold {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.dmsansm{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.manropebold{
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.rubiklight{
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.rubiksbold {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.manropem{
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.rubikm{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.manroper{
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+ .checkbox-wrapper-46 input[type="checkbox"] {
+     display: none;
+     visibility: hidden;
+ }
+.bg1{
+    background: url("/anasayfabg.svg") no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.bg2{
+    border-radius: 10px;
+    border: 1px solid #FFA412;
+    background: var(--gradyan, linear-gradient(270deg, #FFA412 0%, rgba(23, 24, 39, 0.94) 84.75%));
+}
+.bg3{
+    border-radius: 10px;
+    background: var(--main-1, #171827);
+    box-shadow: 4px 4px 4px 0px #FFA412;
+}
+.bg4{
+    border-radius: 15px;
+    background: var(--main4, #F4F4F4);
+    box-shadow: 4px 4px 6px 0px #F0E6EF;
+}
+.bg4:active{
+    border-radius: 15px;
+    background: var(--main2, #F5A526);
+    box-shadow: 4px 4px 6px 0px #BCBCBC;
+}
+
+.checkbox-wrapper-46 .cbx {
+    margin: auto;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+.checkbox-wrapper-46 .cbx span {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translate3d(0, 0, 0);
+}
+.checkbox-wrapper-46 .cbx span:first-child {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    border-radius: 5px;
+    transform: scale(1);
+    vertical-align: middle;
+    border: 1px solid #FFA412;
+    transition: all 0.2s ease;
+}
+.checkbox-wrapper-46 .cbx span:first-child svg {
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 16px;
+    stroke-dashoffset: 16px;
+    transition: all 0.3s ease;
+    transition-delay: 0.1s;
+    transform: translate3d(0, 0, 0);
+}
+.checkbox-wrapper-46 .cbx span:first-child:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+
+    display: block;
+    transform: scale(0);
+    opacity: 1;
+    border-radius: 50%;
+}
+.checkbox-wrapper-46 .cbx span:last-child {
+    padding-left: 8px;
+}
+.checkbox-wrapper-46 .cbx:hover span:first-child {
+    border-color: #FFA412;
+}
+
+.checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child {
+    background: #FFA412;
+    border-color: #FFA412;
+    animation: wave-46 0.4s ease;
+}
+.checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child svg {
+    stroke-dashoffset: 0;
+}
+.checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child:before {
+    transform: scale(3.5);
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+@keyframes wave-46 {
+    50% {
+        transform: scale(0.9);
+    }
+}
+
+
+.shdw1{
+    box-shadow: 4px 4px 8px 0px #000;
+}
+.group2:active{
+
+    box-shadow: 4px 4px 8px 0px #000;
+}
+.bgc{
+    border-radius: 10px;
+    border: 1px solid #C1C1C1;
+    background: #F5F5F5;
+    box-shadow: 1px 2px 2px 0px rgba(74, 21, 120, 0.35);
+}
+.bgc:hover{
+    border-radius: 10px;
+    border: 1px solid #FFA412;
+    background: var(--main-1, #171827);
+    box-shadow: 1px 2px 2px 0px #FFA412;
+}
